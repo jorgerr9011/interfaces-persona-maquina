@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información del usuario</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="datos.css">
+</head>
+<body>
+    <!--Información usuario-->
+   <div class="data-box">
+       <h1>Información del usuario</h1>
+    <form>
+
+        <!--Código QR-->
+        <img alt="Código QR" id="codigo">
+        <script src="https://unpkg.com/qrious@4.0.2/dist/qrious.js"></script>
+        <br>
+        <!--Nombre-->
+        
+        <label for="name">Nombre: <a id="data_name"></a></label>
+        <br>
+        
+        <!--Apellido-->
+        <label for="surname">Apellido: <a id="data_surname"></a></label>
+        <br>
+
+        <!--Email-->
+        <label for="email">Email: <a id="data_email"></a></label>
+        <br>
+
+        <!--Phone-->
+        <label for="phone">Phone: <a id="data_phone"></a></label>
+        <br>
+        
+         <!--Vaccinated-->
+         <label for="is_vaccinated">Vacunado/a: <a id="data_vaccinated"></a></label>
+         <br>
+
+        <!--UUID-->
+        <label for="uuid">UUID: <a id="data_UUID"></a></label>
+        <br>
+        <br>
+        <br>
+        
+
+         <h1>Instalaciones más visitadas en el último mes</h1>
+         <div class="instalaciones">
+            <!--Instalacion 0-->
+            <label id="data_instalacion0"></label>
+            <br>
+
+            <!--Instalacion 1-->
+            <label id="data_instalacion1"></label>
+            <br>
+
+            <!--Instalacion 2-->
+            <label id="data_instalacion2"></label>
+            <br>
+
+            <!--Instalacion 3-->
+            <label id="data_instalacion3"></label>
+            <br>
+
+            <!--Instalacion 4-->
+            <label id="data_instalacion4"></label>
+            <br>
+         </div>
+        <!--Boton para volver atrás-->  
+        <a href="../index.html" id="volver">Volver</a>
+
+    </form>
+   </div>
+
+   <script>
+        mostrarDatos();
+    </script>
+</body>
+</html>

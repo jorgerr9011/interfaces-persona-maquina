@@ -1,0 +1,37 @@
+home:
+  errorBD: BD not accessible
+  appName: MOBILE APP
+  hintID: Facility ID
+  register: Register
+  info: Information
+  facilityID_notFound: Facility ID not found
+
+data_entry:
+  qr: QR
+  scan: SCAN
+  name_surname_hint: Name and surname
+  userNotFound: User not found
+
+registro:
+  name: name
+  surname: surname
+  uuid: uuid
+  temperature: temperature (ºF)
+  date: date
+  time: time
+  in_out: in/out
+  temperature_empty: Temperature is empty
+
+info:
+  startDateTime: Start Date Time
+  endDateTime: End Date Time
+  infoBar: INFORMATION
+  currentVisitors: CURRENT VISITORS
+  totalVisitors: TOTAL VISITORS
+  datesNotEntered: Dates not entered
+
+time:
+  setTime: SET TIME
+
+users_list:
+  usersList: USERS LIST
